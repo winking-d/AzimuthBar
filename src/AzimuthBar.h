@@ -7,14 +7,13 @@
 
 #include <QWidget>
 
-class AzimuthBar : public QWidget{
+class AzimuthBar : public QWidget {
 Q_OBJECT
 public:
-    explicit AzimuthBar(QWidget* parent = nullptr);
+    explicit AzimuthBar(QWidget *parent = nullptr);
+
     ~AzimuthBar() override;
 
-protected:
-public:
 protected:
     void paintEvent(QPaintEvent *event) override;
 
